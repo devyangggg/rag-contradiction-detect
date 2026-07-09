@@ -4,6 +4,8 @@
 import pymupdf  
 import os
 from typing import TypedDict, NotRequired
+import json 
+import re
 
 class DocFormat(TypedDict):
     name : str
@@ -17,6 +19,7 @@ def extract_text_from_pdf(file_path):
     for page in doc:
         text += page.get_text()
 
+    text = re.sub(r'\s+', ' ', text)
     return text
 
 
@@ -43,7 +46,20 @@ else:
         metadata["text"] = text
     
 
-print(metadata)
+try:
+    with open("metadata.json", "x", encoding="utf-8") as f:
+        with open("metadata.json", "a", encoding="utf-8") as f:
+            f.write(json.dumps(metadata, indent=4))
+            print(f"File created at {os.getcwd()}/metadata.json")
+
+except FileExistsError:
+    print("file.txt already exists, exclusive creation aborted.")
+
+
+
+
+#Features to add here:
+#Add a regex date finder to find the date of this document 
 
 
 
