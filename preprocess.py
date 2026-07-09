@@ -26,7 +26,7 @@ def extract_text_from_pdf(file_path):
 metadata : DocFormat = {}
 working_dir = os.getcwd()
 folder_path = ''
-file_path = 'gs_cover_letter_latest-2.pdf'
+file_path = 'test.pdf'
 
 if folder_path == '':
     full_path = working_dir + "/" + file_path

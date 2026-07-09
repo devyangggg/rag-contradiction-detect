@@ -1,0 +1,177 @@
+[
+  {
+    "head": "CloudSync",
+    "type": "use",
+    "tail": "file synchronization"
+  },
+  {
+    "head": "contradiction-detection testing",
+    "type": "uses",
+    "tail": "API"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "API"
+  },
+  {
+    "head": "Authorization header",
+    "type": "has part",
+    "tail": "API key"
+  },
+  {
+    "head": "CloudSync",
+    "type": "use",
+    "tail": "API"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "developer portal"
+  },
+  {
+    "head": "free tier accounts",
+    "type": "number of requests",
+    "tail": "100"
+  },
+  {
+    "head": "enterprise accounts",
+    "type": "instance of",
+    "tail": "rate limit"
+  },
+  {
+    "head": "CloudSync",
+    "type": "uses",
+    "tail": "token bucket algorithm"
+  },
+  {
+    "head": "token bucket",
+    "type": "instance of",
+    "tail": "algorithm"
+  },
+  {
+    "head": "megabytes",
+    "type": "subclass of",
+    "tail": "file size"
+  },
+  {
+    "head": "413",
+    "type": "instance of",
+    "tail": "status code"
+  },
+  {
+    "head": "CloudSync",
+    "type": "part of",
+    "tail": "Amazon S3"
+  },
+  {
+    "head": "Amazon S3",
+    "type": "instance of",
+    "tail": "buckets"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "API"
+  },
+  {
+    "head": "OAuth 2.0",
+    "type": "instance of",
+    "tail": "tokens"
+  },
+  {
+    "head": "Refresh token",
+    "type": "number of participants",
+    "tail": "90"
+  },
+  {
+    "head": "Okta",
+    "type": "use",
+    "tail": "authentication service"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "API"
+  },
+  {
+    "head": "Authorization header",
+    "type": "has part",
+    "tail": "API key"
+  },
+  {
+    "head": "CloudSync",
+    "type": "use",
+    "tail": "API"
+  },
+  {
+    "head": "Identity and Access",
+    "type": "instance of",
+    "tail": "developer portal"
+  },
+  {
+    "head": "free tier accounts",
+    "type": "number of requests",
+    "tail": "50"
+  },
+  {
+    "head": "2000 requests per minute",
+    "type": "instance of",
+    "tail": "rate limit"
+  },
+  {
+    "head": "CloudSync",
+    "type": "uses",
+    "tail": "sliding window algorithm"
+  },
+  {
+    "head": "sliding window",
+    "type": "instance of",
+    "tail": "algorithm"
+  },
+  {
+    "head": "megabytes",
+    "type": "subclass of",
+    "tail": "file size"
+  },
+  {
+    "head": "413",
+    "type": "instance of",
+    "tail": "status code"
+  },
+  {
+    "head": "CloudSync",
+    "type": "part of",
+    "tail": "Google Cloud Storage"
+  },
+  {
+    "head": "Google Cloud Storage",
+    "type": "use",
+    "tail": "replicated"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "API"
+  },
+  {
+    "head": "OAuth 2.0",
+    "type": "follows",
+    "tail": "2.0"
+  },
+  {
+    "head": "2.0",
+    "type": "followed by",
+    "tail": "OAuth 2.0"
+  },
+  {
+    "head": "CloudSync",
+    "type": "instance of",
+    "tail": "API"
+  },
+  {
+    "head": "Auth0",
+    "type": "instance of",
+    "tail": "authentication service"
+  }
+]
