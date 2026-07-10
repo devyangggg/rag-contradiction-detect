@@ -1,0 +1,626 @@
+{
+  "pulsemetrics_docs_test.pdf": [
+    {
+      "head": "PulseMetrics Monitoring Service Documentation",
+      "type": "facet of",
+      "tail": "PulseMetrics",
+      "sentence": "PulseMetrics Monitoring Service Documentation facet of PulseMetrics"
+    },
+    {
+      "head": "contradiction-detection testing",
+      "type": "uses",
+      "tail": "API",
+      "sentence": "contradiction-detection testing uses API"
+    },
+    {
+      "head": "API key",
+      "type": "use",
+      "tail": "authentication",
+      "sentence": "API key use authentication"
+    },
+    {
+      "head": "apikey",
+      "type": "instance of",
+      "tail": "API key",
+      "sentence": "apikey instance of API key"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "PulseMetrics instance of API"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "use",
+      "tail": "Billing",
+      "sentence": "PulseMetrics use Billing"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "use",
+      "tail": "raw metric data",
+      "sentence": "PulseMetrics use raw metric data"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "use",
+      "tail": "enterprise plan",
+      "sentence": "PulseMetrics use enterprise plan"
+    },
+    {
+      "head": "Metropolis",
+      "type": "located in the administrative territorial entity",
+      "tail": "New York City",
+      "sentence": "Metropolis located in the administrative territorial entity New York City"
+    },
+    {
+      "head": "PulseStore",
+      "type": "instance of",
+      "tail": "time-series database",
+      "sentence": "PulseStore instance of time-series database"
+    },
+    {
+      "head": "CPU usage",
+      "type": "facet of",
+      "tail": "alert threshold",
+      "sentence": "CPU usage facet of alert threshold"
+    },
+    {
+      "head": "90 percent",
+      "type": "instance of",
+      "tail": "threshold",
+      "sentence": "90 percent instance of threshold"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "instance of",
+      "tail": "notification service",
+      "sentence": "PulseMetrics instance of notification service"
+    },
+    {
+      "head": "Slack",
+      "type": "instance of",
+      "tail": "email",
+      "sentence": "Slack instance of email"
+    },
+    {
+      "head": "JSON",
+      "type": "instance of",
+      "tail": "format",
+      "sentence": "JSON instance of format"
+    },
+    {
+      "head": "export",
+      "type": "subclass of",
+      "tail": "endpoint",
+      "sentence": "export subclass of endpoint"
+    },
+    {
+      "head": "Datadog",
+      "type": "operating system",
+      "tail": "cross-platform",
+      "sentence": "Datadog operating system cross-platform"
+    },
+    {
+      "head": "Datadog",
+      "type": "developer",
+      "tail": "PulseMetrics",
+      "sentence": "Datadog developer PulseMetrics"
+    },
+    {
+      "head": "API key",
+      "type": "use",
+      "tail": "authentication",
+      "sentence": "API key use authentication"
+    },
+    {
+      "head": "X-API-Key",
+      "type": "instance of",
+      "tail": "API key",
+      "sentence": "X-API-Key instance of API key"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "PulseMetrics instance of API"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "instance of",
+      "tail": "Platform",
+      "sentence": "PulseMetrics instance of Platform"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "use",
+      "tail": "raw metric data",
+      "sentence": "PulseMetrics use raw metric data"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "use",
+      "tail": "enterprise plan",
+      "sentence": "PulseMetrics use enterprise plan"
+    },
+    {
+      "head": "Metropolis",
+      "type": "located in the administrative territorial entity",
+      "tail": "New York City",
+      "sentence": "Metropolis located in the administrative territorial entity New York City"
+    },
+    {
+      "head": "ChronosDB",
+      "type": "instance of",
+      "tail": "time-series database",
+      "sentence": "ChronosDB instance of time-series database"
+    },
+    {
+      "head": "CPU usage",
+      "type": "facet of",
+      "tail": "alert threshold",
+      "sentence": "CPU usage facet of alert threshold"
+    },
+    {
+      "head": "80 percent",
+      "type": "instance of",
+      "tail": "threshold",
+      "sentence": "80 percent instance of threshold"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "instance of",
+      "tail": "notification service",
+      "sentence": "PulseMetrics instance of notification service"
+    },
+    {
+      "head": "Slack",
+      "type": "instance of",
+      "tail": "delivery channels",
+      "sentence": "Slack instance of delivery channels"
+    },
+    {
+      "head": "PulseMetrics",
+      "type": "uses",
+      "tail": "Parquet",
+      "sentence": "PulseMetrics uses Parquet"
+    },
+    {
+      "head": "export endpoint",
+      "type": "subclass of",
+      "tail": "data point",
+      "sentence": "export endpoint subclass of data point"
+    },
+    {
+      "head": "Grafana",
+      "type": "operating system",
+      "tail": "cross-platform",
+      "sentence": "Grafana operating system cross-platform"
+    },
+    {
+      "head": "Grafana",
+      "type": "developer",
+      "tail": "PulseMetrics",
+      "sentence": "Grafana developer PulseMetrics"
+    }
+  ],
+  "test1.pdf": [
+    {
+      "head": "CloudSync",
+      "type": "use",
+      "tail": "file synchronization",
+      "sentence": "CloudSync use file synchronization"
+    },
+    {
+      "head": "contradiction-detection testing",
+      "type": "uses",
+      "tail": "API",
+      "sentence": "contradiction-detection testing uses API"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "CloudSync instance of API"
+    },
+    {
+      "head": "Authorization header",
+      "type": "has part",
+      "tail": "API key",
+      "sentence": "Authorization header has part API key"
+    },
+    {
+      "head": "CloudSync",
+      "type": "use",
+      "tail": "API",
+      "sentence": "CloudSync use API"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "developer portal",
+      "sentence": "CloudSync instance of developer portal"
+    },
+    {
+      "head": "free tier accounts",
+      "type": "number of requests",
+      "tail": "100",
+      "sentence": "free tier accounts number of requests 100"
+    },
+    {
+      "head": "enterprise accounts",
+      "type": "instance of",
+      "tail": "rate limit",
+      "sentence": "enterprise accounts instance of rate limit"
+    },
+    {
+      "head": "CloudSync",
+      "type": "uses",
+      "tail": "token bucket algorithm",
+      "sentence": "CloudSync uses token bucket algorithm"
+    },
+    {
+      "head": "token bucket",
+      "type": "instance of",
+      "tail": "algorithm",
+      "sentence": "token bucket instance of algorithm"
+    },
+    {
+      "head": "megabytes",
+      "type": "subclass of",
+      "tail": "file size",
+      "sentence": "megabytes subclass of file size"
+    },
+    {
+      "head": "413",
+      "type": "instance of",
+      "tail": "status code",
+      "sentence": "413 instance of status code"
+    },
+    {
+      "head": "CloudSync",
+      "type": "part of",
+      "tail": "Amazon S3",
+      "sentence": "CloudSync part of Amazon S3"
+    },
+    {
+      "head": "Amazon S3",
+      "type": "instance of",
+      "tail": "buckets",
+      "sentence": "Amazon S3 instance of buckets"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "CloudSync instance of API"
+    },
+    {
+      "head": "OAuth 2.0",
+      "type": "instance of",
+      "tail": "tokens",
+      "sentence": "OAuth 2.0 instance of tokens"
+    },
+    {
+      "head": "Refresh token",
+      "type": "number of participants",
+      "tail": "90",
+      "sentence": "Refresh token number of participants 90"
+    },
+    {
+      "head": "Okta",
+      "type": "use",
+      "tail": "authentication service",
+      "sentence": "Okta use authentication service"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "CloudSync instance of API"
+    },
+    {
+      "head": "Authorization header",
+      "type": "has part",
+      "tail": "API key",
+      "sentence": "Authorization header has part API key"
+    },
+    {
+      "head": "CloudSync",
+      "type": "use",
+      "tail": "API",
+      "sentence": "CloudSync use API"
+    },
+    {
+      "head": "Identity and Access",
+      "type": "instance of",
+      "tail": "developer portal",
+      "sentence": "Identity and Access instance of developer portal"
+    },
+    {
+      "head": "free tier accounts",
+      "type": "number of requests",
+      "tail": "50",
+      "sentence": "free tier accounts number of requests 50"
+    },
+    {
+      "head": "2000 requests per minute",
+      "type": "instance of",
+      "tail": "rate limit",
+      "sentence": "2000 requests per minute instance of rate limit"
+    },
+    {
+      "head": "CloudSync",
+      "type": "uses",
+      "tail": "sliding window algorithm",
+      "sentence": "CloudSync uses sliding window algorithm"
+    },
+    {
+      "head": "sliding window",
+      "type": "instance of",
+      "tail": "algorithm",
+      "sentence": "sliding window instance of algorithm"
+    },
+    {
+      "head": "megabytes",
+      "type": "subclass of",
+      "tail": "file size",
+      "sentence": "megabytes subclass of file size"
+    },
+    {
+      "head": "413",
+      "type": "instance of",
+      "tail": "status code",
+      "sentence": "413 instance of status code"
+    },
+    {
+      "head": "CloudSync",
+      "type": "part of",
+      "tail": "Google Cloud Storage",
+      "sentence": "CloudSync part of Google Cloud Storage"
+    },
+    {
+      "head": "Google Cloud Storage",
+      "type": "use",
+      "tail": "replicated",
+      "sentence": "Google Cloud Storage use replicated"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "CloudSync instance of API"
+    },
+    {
+      "head": "OAuth 2.0",
+      "type": "follows",
+      "tail": "2.0",
+      "sentence": "OAuth 2.0 follows 2.0"
+    },
+    {
+      "head": "2.0",
+      "type": "followed by",
+      "tail": "OAuth 2.0",
+      "sentence": "2.0 followed by OAuth 2.0"
+    },
+    {
+      "head": "CloudSync",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "CloudSync instance of API"
+    },
+    {
+      "head": "Auth0",
+      "type": "instance of",
+      "tail": "authentication service",
+      "sentence": "Auth0 instance of authentication service"
+    }
+  ],
+  "vaultkeep_docs_test.pdf": [
+    {
+      "head": "VaultKeep Secrets Manager Documentation",
+      "type": "facet of",
+      "tail": "VaultKeep",
+      "sentence": "VaultKeep Secrets Manager Documentation facet of VaultKeep"
+    },
+    {
+      "head": "contradiction-detection testing",
+      "type": "uses",
+      "tail": "API",
+      "sentence": "contradiction-detection testing uses API"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "VaultKeep instance of API"
+    },
+    {
+      "head": "X-Vault-Token",
+      "type": "instance of",
+      "tail": "service token",
+      "sentence": "X-Vault-Token instance of service token"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "service tokens",
+      "sentence": "VaultKeep use service tokens"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "instance of",
+      "tail": "command-line interface",
+      "sentence": "VaultKeep instance of command-line interface"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "uses",
+      "tail": "AES-256 encryption",
+      "sentence": "VaultKeep uses AES-256 encryption"
+    },
+    {
+      "head": "vaultKeep",
+      "type": "instance of",
+      "tail": "encryption key",
+      "sentence": "vaultKeep instance of encryption key"
+    },
+    {
+      "head": "Secret rotation",
+      "type": "facet of",
+      "tail": "secret",
+      "sentence": "Secret rotation facet of secret"
+    },
+    {
+      "head": "180 days",
+      "type": "point in time",
+      "tail": "180",
+      "sentence": "180 days point in time 180"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "access control",
+      "sentence": "VaultKeep use access control"
+    },
+    {
+      "head": "namespace",
+      "type": "has part",
+      "tail": "Roles",
+      "sentence": "namespace has part Roles"
+    },
+    {
+      "head": "root",
+      "type": "instance of",
+      "tail": "namespace",
+      "sentence": "root instance of namespace"
+    },
+    {
+      "head": "namespaces",
+      "type": "used by",
+      "tail": "administrators",
+      "sentence": "namespaces used by administrators"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "backup",
+      "sentence": "VaultKeep use backup"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "operating area",
+      "tail": "US East",
+      "sentence": "VaultKeep operating area US East"
+    },
+    {
+      "head": "US West",
+      "type": "instance of",
+      "tail": "backup region",
+      "sentence": "US West instance of backup region"
+    },
+    {
+      "head": "SHA-256",
+      "type": "instance of",
+      "tail": "checksum",
+      "sentence": "SHA-256 instance of checksum"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "instance of",
+      "tail": "API",
+      "sentence": "VaultKeep instance of API"
+    },
+    {
+      "head": "Authorization header",
+      "type": "facet of",
+      "tail": "bearer token",
+      "sentence": "Authorization header facet of bearer token"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "service tokens",
+      "sentence": "VaultKeep use service tokens"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "instance of",
+      "tail": "command-line interface",
+      "sentence": "VaultKeep instance of command-line interface"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "uses",
+      "tail": "AES-256-GCM",
+      "sentence": "VaultKeep uses AES-256-GCM"
+    },
+    {
+      "head": "vaultKeep",
+      "type": "uses",
+      "tail": "root encryption key",
+      "sentence": "vaultKeep uses root encryption key"
+    },
+    {
+      "head": "Secret rotation",
+      "type": "facet of",
+      "tail": "secret",
+      "sentence": "Secret rotation facet of secret"
+    },
+    {
+      "head": "90 days",
+      "type": "point in time",
+      "tail": "90",
+      "sentence": "90 days point in time 90"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "access control",
+      "sentence": "VaultKeep use access control"
+    },
+    {
+      "head": "namespace",
+      "type": "has part",
+      "tail": "Attributes",
+      "sentence": "namespace has part Attributes"
+    },
+    {
+      "head": "root",
+      "type": "instance of",
+      "tail": "namespace",
+      "sentence": "root instance of namespace"
+    },
+    {
+      "head": "namespaces",
+      "type": "used by",
+      "tail": "administrators",
+      "sentence": "namespaces used by administrators"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "use",
+      "tail": "backup",
+      "sentence": "VaultKeep use backup"
+    },
+    {
+      "head": "VaultKeep",
+      "type": "operating area",
+      "tail": "US East",
+      "sentence": "VaultKeep operating area US East"
+    },
+    {
+      "head": "EU Central",
+      "type": "instance of",
+      "tail": "backup region",
+      "sentence": "EU Central instance of backup region"
+    },
+    {
+      "head": "SHA-512",
+      "type": "instance of",
+      "tail": "checksum",
+      "sentence": "SHA-512 instance of checksum"
+    }
+  ]
+}

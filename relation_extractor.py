@@ -54,34 +54,50 @@ data = {}
 with open("metadata.json","r") as f:
     data = json.load(f)
 
-text = data["text"]
+all_file_data = {}
 
-sentences = sent_tokenize(text)
-all_triplets = []
+for d in data:
+    entry = data[d]
 
+    file_name = entry["name"]
+    text = entry["text"]
 
-for sentence in sentences:
-    # if len(sentence.strip()) < 10:
-    #     continue
-
-    model_inputs = tokenizer(sentence, max_length=256, padding=True, truncation=True, return_tensors='pt')
-
-
-    generated_tokens = model.generate(
-        model_inputs["input_ids"].to(model.device),
-        attention_mask=model_inputs["attention_mask"].to(model.device),
-        **gen_kwargs,
-        output_scores=True,
-        return_dict_in_generate=True
-    )
-
-    decoded_preds = tokenizer.batch_decode(generated_tokens.sequences, skip_special_tokens=False)
+    sentences = sent_tokenize(text)
+    all_triplets = []
 
 
-    for pred in decoded_preds:       
-        triplets = extract_triplets(pred)
-        all_triplets.extend(triplets) 
+    for sentence in sentences:
+
+        model_inputs = tokenizer(sentence, max_length=256, padding=True, truncation=True, return_tensors='pt')
+
+
+        generated_tokens = model.generate(
+            model_inputs["input_ids"].to(model.device),
+            attention_mask=model_inputs["attention_mask"].to(model.device),
+            **gen_kwargs,
+            output_scores=True,
+            return_dict_in_generate=True
+        )
+
+        decoded_preds = tokenizer.batch_decode(generated_tokens.sequences, skip_special_tokens=False)
+
+
+        for pred in decoded_preds:       
+            triplets = extract_triplets(pred)
+            all_triplets.extend(triplets) 
+
+    all_file_data[file_name] = all_triplets
+    
+
+
+for file in all_file_data:
+    triplet_arr = all_file_data[file]
+
+    for triplet in triplet_arr:
+        triplet["sentence"] = f"{triplet['head']} {triplet['type']} {triplet['tail']}"
 
 with open("triplets.json", "w") as f:
-    json.dump(all_triplets, f, indent=2)
+    json.dump(all_file_data, f, indent=2)
+
+
 
