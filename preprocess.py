@@ -25,25 +25,29 @@ def extract_text_from_pdf(file_path):
 
 metadata : DocFormat = {}
 working_dir = os.getcwd()
-folder_path = ''
+folder_path = 'docs'
 file_path = 'test.pdf'
 
 if folder_path == '':
     full_path = working_dir + "/" + file_path
-
     text = extract_text_from_pdf(full_path)
     metadata["name"] = file_path
     metadata["text"] = text
 
 else:
 
+    folder_path = working_dir + "/" + folder_path
+    i = 0
     for filename in os.listdir(folder_path):
         full_path = os.path.join(folder_path, filename)
 
         text = extract_text_from_pdf(full_path)
-
-        metadata["name"] = filename
-        metadata["text"] = text
+        metadata[i] = {
+            "name" : filename,
+            "text" : text
+        }
+        print(f"Done with{filename}")
+        i += 1
     
 
 try:
