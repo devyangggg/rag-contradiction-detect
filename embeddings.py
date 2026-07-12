@@ -46,6 +46,7 @@ for d in json_data:
         embedding = embedding_cache[sentence]
 
         triplet_data = {
+            "row_key": f"{d}_{i}",
             "id" : i,
             "file_name" : d,
             "sentence" : sentence,
